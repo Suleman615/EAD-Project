@@ -1,13 +1,17 @@
+import Auction from "./components/Auction";
+import Discover from "./components/Discover";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Welcome from "./components/Welcome";
 
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Hero />
+      <Welcome />
+      <Auction />
+      <Discover />
       <Footer />
 
     </div>
